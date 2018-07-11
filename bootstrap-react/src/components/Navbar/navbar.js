@@ -1,15 +1,11 @@
-import React, { Component } from 'react';
-import { Navbar, NavbarToggler, Button, ButtonGroup, NavbarNav, NavItem, NavLink, Dropdown, DropdownToggle, DropdownMenu, DropdownItem, Fa } from 'mdbreact';
+import React from 'react';
+import { Navbar, Button, ButtonGroup, NavbarNav, NavItem, NavLink, Fa } from 'mdbreact';
 import { BrowserRouter as Router } from 'react-router-dom';
 import ToolbarFeatures from '../Toolbar/toolbar';
 import './navbar.css';
 
 
 class NavbarFeatures extends React.Component {
-    constructor(props) {
-        super(props);
-
-    }
 
 
 
