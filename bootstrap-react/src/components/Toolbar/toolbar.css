@@ -4,16 +4,18 @@
   font-size: 16px;
   letter-spacing: 3px;
   padding-top: 2px;
+  padding-bottom: 15px;
+  z-index: 2001;
   
 }
 
 .toolbar {
     /* margin-top: 20px !important; */
     background-color: #ffffff!important;
-    z-index: 1000 !important;
+    z-index: 1001 !important;
     border-radius: 15px;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
     margin-bottom: 3px;
     margin-top: 0px;
     border: 5px solid #2c2c2c; 
@@ -51,17 +53,21 @@
 }
 
 .save-location-btn {
-  margin-left: -2%;
-  margin-top: 108%;
+  position: absolute;
+  bottom: 15%;
+  left: 41%;
+  
+  /* margin-left: -2%;
+  margin-top: 108%; */
   
 }
 
-.modal-container {
+/* .modal-container {
   position: relative;
 }
 .modal-container .modal, .modal-container .modal-backdrop {
   position: absolute;
-}
+} */
 
 
 

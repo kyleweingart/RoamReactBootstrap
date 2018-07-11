@@ -76,6 +76,7 @@ class ToolbarFeatures extends React.Component {
                         <Button className="btn-circle"><Fa icon="image" /></Button>
                         <Button className="btn-circle"><Fa icon="headphones" /></Button>
                         <Button className="btn-circle"><Fa icon="bicycle" /></Button>
+                        <Button className="btn-circle"><Fa icon="users" /></Button>
                     </div>
                 </div>
 
