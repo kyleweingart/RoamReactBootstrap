@@ -12,10 +12,10 @@ class RoamMap extends Component {
     render() {
         return (
             <div>
-            {/* <ToolbarFeatures/> */}
+          
         
                 <Map
-                    // ref={m => { this.leafletMap = m; }}
+                  
                     center={mapCenter}
                     zoom={zoomLevel}
                 >

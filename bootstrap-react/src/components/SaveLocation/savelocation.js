@@ -49,11 +49,6 @@ class SaveLocation extends React.Component {
                         <label>Add Comments:</label>
 
                         <input type="textarea" className="form-control form-control-lg" label="Add Comments:" />
-                        {/* <Button className="btn-large-modal btn-large-left"><Fa icon="tag" size="2x" /></Button>{' '}
-                                <span className="add-photo"> Choose Category </span> */}
-
-                        {/* <Button className="btn-large-modal btn-large-left"><Fa icon="pencil" size="2x" /></Button>{' '}
-                            <span className="add-photo"> Add Comments </span> */}
                         <br></br>
                         <Button className="btn-large-modal btn-large-left"><Fa icon="camera-retro" size="2x" /></Button>{' '}
                         <span className="add-photo"> Add Photo </span>

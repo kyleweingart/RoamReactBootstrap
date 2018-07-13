@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Card, CardBody, CardImage, CardTitle, CardText, CardGroup, Fa } from 'mdbreact';
+import { Button, Card, CardBody, CardTitle, CardText, CardGroup, Fa } from 'mdbreact';
 
 
 class LocationCard extends React.Component {
