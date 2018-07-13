@@ -5,21 +5,21 @@ import './toolbar.css';
 
 
 class ToolbarFeatures extends React.Component {
-    constructor(props) {
-        super(props);
+    // constructor(props) {
+    //     super(props);
 
-        this.state = {
-            modal: false
-        };
+    //     this.state = {
+    //         modal: false
+    //     };
 
-        this.toggle = this.toggle.bind(this);
-    }
+    //     this.toggle = this.toggle.bind(this);
+    // }
 
-    toggle() {
-        this.setState({
-            modal: !this.state.modal
-        });
-    }
+    // toggle() {
+    //     this.setState({
+    //         modal: !this.state.modal
+    //     });
+    // }
 
 
 
@@ -27,7 +27,7 @@ class ToolbarFeatures extends React.Component {
     render() {
         return (
             <div>
-                <div className="background modal-container">Categories:
+                <div className="background">Categories:
             <div className="toolbar">
                         <Button className="btn-circle"><Fa icon="beer" /></Button>
                         <Button className="btn-circle"><Fa icon="shopping-bag" /></Button>
@@ -38,9 +38,10 @@ class ToolbarFeatures extends React.Component {
                         <Button className="btn-circle"><Fa icon="users" /></Button>
                     </div>
                 </div>
+                
 
-                <div>
-                    <div className="save-location-btn">
+                {/* <div>
+                    <div className="save-location-btn modal-container">
                         <Button className="btn-large" onClick={this.toggle}
                         >+</Button>
                         <Modal isOpen={this.state.modal} toggle={this.toggle} size="fluid" position="bottom">
@@ -64,11 +65,6 @@ class ToolbarFeatures extends React.Component {
                                 <label>Add Comments:</label>
                                 
                                 <input type="textarea" className="form-control form-control-lg" label="Add Comments:"/>
-                                {/* <Button className="btn-large-modal btn-large-left"><Fa icon="tag" size="2x" /></Button>{' '}
-                                <span className="add-photo"> Choose Category </span> */}
-                                
-                                {/* <Button className="btn-large-modal btn-large-left"><Fa icon="pencil" size="2x" /></Button>{' '}
-                            <span className="add-photo"> Add Comments </span> */}
                                 <br></br>
                                 <Button className="btn-large-modal btn-large-left"><Fa icon="camera-retro" size="2x" /></Button>{' '}
                                 <span className="add-photo"> Add Photo </span>
@@ -86,7 +82,7 @@ class ToolbarFeatures extends React.Component {
                     </div>
 
 
-                </div>
+                </div> */}
 
 
 

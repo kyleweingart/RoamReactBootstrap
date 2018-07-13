@@ -1,28 +1,29 @@
-import React, { Component } from 'react';
+import React from 'react';
+import { BrowserRouter as Router, Route } from "react-router-dom";
 import './App.css';
 import NavbarFeatures from './components/Navbar/navbar';
-import RoamMap from './components/Map/map';
+import HomeMap from './pages/HomeMap';
+import SearchYelp from './pages/SearchYelp';
+import SavedLocations from './pages/SavedLocations';
 
 
-class App extends Component {
-  render() {
-    return (
+const App = () => (
+  <Router>
     <div>
-      <div className="App">
-        <NavbarFeatures/>
+      <NavbarFeatures/>
+      <Route exact path="/" component={HomeMap} />
+      <Route exact path="/search" component={SearchYelp} />
+      <Route exact path="/saved" component={SavedLocations} />
+
         
-      </div>
-
-      <div className="map"> 
-        <RoamMap/> 
-      </div>
-
     </div>
+
+  </Router>
       
 
       
-    );
-  }
-}
+  );
+ 
+
 
 export default App;
