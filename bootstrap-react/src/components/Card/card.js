@@ -1,11 +1,14 @@
 import React from 'react';
 import { Button, Card, CardBody, CardTitle, CardText, CardGroup, Fa } from 'mdbreact';
+import './card.css';
 
 
 class LocationCard extends React.Component {
     render() {
       return (
-<CardGroup deck className="card">
+
+  <div className="container-fluid cards">        
+
 
 <Card>
   <CardBody>
@@ -36,7 +39,9 @@ class LocationCard extends React.Component {
   </CardBody>
 </Card>
 
-</CardGroup>
+
+
+</div>
 
       );
     }
