@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import RoamMap from '../components/Map/map';
 import YelpSearch from '../components/YelpSearchInput/yelpsearch'
-
+// import './searchyelp.css'
 
 
 class SearchYelp extends Component {
